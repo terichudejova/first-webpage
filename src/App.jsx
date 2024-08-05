@@ -1,10 +1,7 @@
+// Import Reactu
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import NavigationBar from './NavigationBar'
-import CarouselGallery from './CarouselGallery'
-import { AddressMap } from './AddressMap'
-import ShakeImage from './ShakeImage'
+
+// Import CSS souborů
 import './App.css'
 import "./mainContainer.css"
 import "./landingPage.css"
@@ -13,6 +10,20 @@ import "./nabidka.css"
 import "./kontakt.css"
 import "./kdoJsme.css"
 import "./povidani.css"
+
+// Import komponent
+import FacebookIcon from '@mui/icons-material/Facebook'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import MailOutlineIcon from '@mui/icons-material/MailOutline'
+import NavigationBar from './NavigationBar'
+import CarouselGallery from './CarouselGallery'
+import { AddressMap } from './AddressMap'
+import ShakeImage from './ShakeImage'
+
+
+
+
+
 
 function App() {
 
@@ -154,13 +165,13 @@ function App() {
                       <p>Kontakt:</p>
                       <div className='contactIcons'>
                         <a href='https://www.facebook.com/elpidaproseniory/' target='_blank'>
-                          {/* <FacebookIcon style={{ fontSize: 40 }} className='iconka'/> */}
+                          <FacebookIcon style={{ fontSize: 40 }} className='iconka'/>
                         </a>
                         <a href='https://www.instagram.com/staraskola_elpida/?hl=cs' target='_blank'>
-                          {/* <InstagramIcon style={{ fontSize: 40 }} className='iconka'/> */}
+                          <InstagramIcon style={{ fontSize: 40 }} className='iconka'/>
                         </a>
                         <a href='mailto:info@elpida.cz' target='_blank'>
-                          {/* <MailOutlineIcon style={{ fontSize: 40 }} className='iconka'/> */}
+                          <MailOutlineIcon style={{ fontSize: 40 }} className='iconka'/>
                         </a>
                       </div>
                     </div>
