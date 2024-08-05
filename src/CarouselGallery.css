@@ -1,0 +1,62 @@
+.carousel {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .carousel-item img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+  
+  /* RESPONSIVITY */
+  
+  /* Menší než 750px */
+  
+  @media only screen and (max-width: 750px) {
+    .carousel {
+      margin-top: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 1800px) {
+    .carousel {
+      width: 400px;
+      height: 400px;
+      text-align: center;
+      margin-top: 40px;
+    }
+    
+    .carousel-item img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+      }
+  }
+  
+  @media only screen and (min-width: 2300px) {
+    .carousel {
+      margin-top: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 580px) {
+    .carousel {
+      margin-top: 60px;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .carousel {
+      width: 200px;
+      height: 200px;
+    }
+    
+    .carousel-item img {
+        width: 200px;
+        height: 200px;
+      }
+  }
+  
