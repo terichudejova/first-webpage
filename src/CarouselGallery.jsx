@@ -9,42 +9,42 @@ export default function CarouselGallery() {
               <Carousel.Item className='carousel-item'>
                 <img
                   className="d-block w-100"
-                  src="public/images/Carousel2.png"
+                  src="images/Carousel2.png"
                   alt="First slide"
                 />
               </Carousel.Item>
               <Carousel.Item className='carousel-item'>
                 <img
                   className="d-block w-100"
-                  src="public/images/Carousel3.png"
+                  src="images/Carousel3.png"
                   alt="Second slide"
                 />
               </Carousel.Item>
               <Carousel.Item> 
                 <img
                   className="d-block w-100"
-                  src="public/images/carousel1.png"
+                  src="images/carousel1.png"
                   alt="Third slide"
                 />
               </Carousel.Item>
               <Carousel.Item> 
                 <img
                   className="d-block w-100"
-                  src="public/images/carousel4.png"
+                  src="images/carousel4.png"
                   alt="Third slide"
                 />
               </Carousel.Item>
               <Carousel.Item> 
                 <img
                   className="d-block w-100"
-                  src="public/images/carousel5.png"
+                  src="images/carousel5.png"
                   alt="Third slide"
                 />
               </Carousel.Item>
               <Carousel.Item> 
                 <img
                   className="d-block w-100"
-                  src="public/images/carousel6.png"
+                  src="images/carousel6.png"
                   alt="Third slide"
                 />
               </Carousel.Item>
