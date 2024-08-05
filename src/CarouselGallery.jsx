@@ -9,7 +9,7 @@ export default function CarouselGallery() {
               <Carousel.Item className='carousel-item'>
                 <img
                   className="d-block w-100"
-                  src="src/images/Carousel2.png"
+                  src="src/images/Carousel2.PNG"
                   alt="First slide"
                 />
               </Carousel.Item>
