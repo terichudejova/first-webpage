@@ -35,7 +35,7 @@ function App() {
         {/* ÚVODNÍ (MODRÁ) LANDING PAGE */}
         <div id='landingPage'>
           <div id='navbar'>
-            <a href='#landingPage'><img id='logo' src='public/images/logo.jpg'/></a>
+            <a href='#landingPage'><img id='logo' src='images/logo.jpg'/></a>
             <NavigationBar/>
           </div>
           <h1 id='onas'>kavárna Stará škola</h1>
@@ -53,8 +53,8 @@ function App() {
               </p>
             </div>
           </div>
-          <img id='dots1' src='public/images/dots1.png'/>
-          <img id='dots2' src='public/images/dots2.png'/>
+          <img id='dots1' src='images/dots1.png'/>
+          <img id='dots2' src='images/dots2.png'/>
       </div>
 
       {/* SEKCE MENU (PINK) */}
@@ -142,9 +142,9 @@ function App() {
                     <p>Každý den pečeme nové dobroty.</p>
                 </div>
                 <div id='prostor'></div>
-                <ShakeImage url={"public/images/pytel.png"} top={"50%"} left={"-20%"} width={"100px"} height={"100px"} className="shake pytel"/>
-                <ShakeImage url={"public/images/beans.png"} top={"20%"} left={"70%"} width={"80px"} height={"80px"} className="shake beans"/>
-                <ShakeImage url={"public/images/mocha.png"} top={"50%"} left={"95%"} width={"120px"} height={"120px"} className="shake mocha"/>
+                <ShakeImage url={"images/pytel.png"} top={"50%"} left={"-20%"} width={"100px"} height={"100px"} className="shake pytel"/>
+                <ShakeImage url={"images/beans.png"} top={"20%"} left={"70%"} width={"80px"} height={"80px"} className="shake beans"/>
+                <ShakeImage url={"images/mocha.png"} top={"50%"} left={"95%"} width={"120px"} height={"120px"} className="shake mocha"/>
             </div>
 
             {/* SEKCE KONTAKT */}
