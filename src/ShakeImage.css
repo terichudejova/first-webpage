@@ -1,0 +1,144 @@
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .shake:hover {
+    animation: shake 0.5s infinite;
+  }
+
+  .mocha {
+    transform: rotate(10deg);
+  }
+
+  .pytel {
+    transform: rotate(-8deg);
+  }
+
+@media only screen and (max-width: 1700px) {
+    .beans {
+        left: 60% !important;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+  .pytel {
+      left: -10% !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .pytel {
+      width: 80px !important;
+      height: 80px !important;
+      top: 66% !important;
+      left: -2% !important;
+  }
+
+  .mocha {
+    width: 90px !important;
+    height: 90px !important;
+    left: 85% !important;
+    top: 52% !important;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .beans {
+    width: 70px !important;
+    height: 70px !important;
+    top: 25% !important;
+  }
+
+  .pytel {
+    top: 70% !important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .beans {
+    top: 10% !important;
+    left: 45% !important;
+  }
+
+  .mocha {
+    top: 58% !important;
+    left: 88% !important;
+  }
+
+  .pytel {
+    top: 80% !important;
+    left: -9% !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .beans {
+    left: 40% !important;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .beans {
+    left: 35% !important;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .beans {
+    left: 25% !important;
+  }
+
+  .mocha {
+    left: 85% !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .beans {
+    top: 7% !important;
+    left: 20% !important;
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .mocha {
+    width: 70px !important;
+    height: 70px !important;
+    transform: rotate(0) !important;
+  }
+
+  .pytel {
+    width: 62px !important;
+    height: 62px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .beans {
+    width: 50px !important;
+    height: 50px !important;
+    top: 8% !important;
+    left: 30% !important;
+  }
+
+  .mocha {
+    width: 65px !important;
+    height: 65px !important;
+    left: 80% !important;
+  }
+
+  .pytel {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .beans, .mocha, .pytel {
+    display: none !important;
+  }
+}

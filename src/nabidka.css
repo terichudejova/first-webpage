@@ -1,0 +1,308 @@
+
+/* NABÍDKA PAGE - grid */
+#nabidka {
+    position: relative;
+    height: 1100px;
+    background-color: var(--third-color);
+    width: 65%;
+    display: grid;
+    grid-template-areas:
+    "nadpis nadpis nadpis nadpis"
+    "kava kava caj caj"
+    "kava kava caj caj"
+    "kava kava caj caj"
+    "kava kava limo limo"
+    "dort dort limo limo"
+    "dort dort limo limo"
+    "prostor prostor prostor prostor";
+}
+
+#nadpis h3 {
+    font-size: 30px;
+}
+
+/* Přiřazení grid areas */
+#nadpis {
+    margin-top: 250px;
+    margin-right: 20px;
+    grid-area: nadpis;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: var(--main-font);
+}
+
+#kava {
+    margin-top: 60px;
+    grid-area: kava;
+}
+
+#caj {
+    margin-top: 60px;
+    grid-area: caj;
+}
+
+#limo {
+    grid-area: limo;
+}
+
+#dort {
+    grid-area: dort;
+}
+
+#prostor {
+    grid-area: prostor;
+    height: 100px;
+}
+
+/* Styling každé kategorie menu */
+.menu {
+    padding-top: 20px;
+    border: 1px solid var(--main-color);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    font-family: var(--main-font);
+}
+
+.menu h4 {
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 5px;
+}
+
+/* Styling menu do 2 sloupců */
+.ceny {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.left {
+    width: 70%;
+    text-align: left;
+}
+
+.right {
+    width: 30%;
+    text-align: right;
+}
+
+/* Shaking effect na obrázcích */
+.shake:hover {
+    cursor: pointer;
+}
+
+
+
+/* RESPONSIVITY */
+
+/* Bigger screen */
+@media only screen and (min-width: 1500px) {
+    #nabidka {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 2300px) {
+    #nabidka h3 {
+        font-size: 50px;
+    }
+
+    .menu h4 {
+        font-size: 35px;
+    }
+
+    .menu ul {
+        font-size: 25px;
+    }
+
+    .menu p {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    #nabidka {
+        height: 1400px;
+    }
+}
+
+@media only screen and (min-width: 3500px) {
+    #nabidka h3 {
+        font-size: 60px;
+    }
+
+    .menu h4 {
+        font-size: 45px;
+    }
+
+    .menu ul {
+        font-size: 30px;
+    }
+
+    .menu p {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1590px) {
+    .ceny {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #dort p {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    #nabidka {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    #nabidka {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1105px) {
+    .menu p {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #nabidka {
+        width: 90%;
+    }
+
+    #prostor {
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .menu ul {
+        font-size: 14px;
+    }
+
+    #nabidka {
+        width: 92%;
+        height: 1000px;
+    }
+
+    .menu {
+        margin: 15px;
+    }
+
+    #dort p {
+        font-size: 14px;
+    }
+
+    #kava {
+        margin-top: 40px;
+    }
+
+    #caj {
+        margin-top: 40px;
+    }
+
+    #prostor {
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #nadpis {
+        margin-top: 150px;
+        margin-bottom: 30px;
+    }
+
+    #nabidka {
+        grid-template-areas:
+        "nadpis"
+        "kava"
+        "caj"
+        "limo"
+        "dort"
+        "prostor";
+        height: 1400px;
+        width: 65%;
+    }
+
+    .menu {
+        margin-bottom: 20px;
+    }
+
+    #kava {
+        margin-top: 20px;
+    }
+
+    #caj {
+        margin-top: 20px;
+    }
+
+    #prostor {
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    #nabidka {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #nabidka {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #nabidka h3 {
+        font-size: 25px;
+    }
+
+    #nadpis {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .menu h4 {
+        font-size: 20px;
+    }
+
+    .menu ul {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #nabidka {
+        width: 90%;
+    }
+}

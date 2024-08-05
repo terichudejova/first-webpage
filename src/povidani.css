@@ -1,0 +1,85 @@
+#povidani {
+    background-color: var(--main-color);
+    width: 500px;
+    height: 300px;
+    margin-top: 40px; 
+    margin-left: 100px;
+}
+
+#povidani h2 {
+    font-family: var(--main-font);
+    color: white;
+    font-size: 30px;
+}
+
+#povidani p {
+    color: white;
+    text-align: justify;
+    font-weight: 400;
+}
+
+
+/* RESPONSIVITY */
+
+@media only screen and (min-width: 2300px) {
+    #povidani h2 {
+        font-size: 50px;
+    }
+
+    #povidani p {
+        font-size: 25px;
+    }
+
+    #povidani {
+        width: 40%;
+        height: 100%;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 3500px) {
+    #povidani h2 {
+        font-size: 60px;
+    }
+
+    #povidani p {
+        font-size: 30px;
+    }
+}
+
+/* Menší než 1000px */
+@media only screen and (max-width: 999px) {
+    #povidani {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #povidani h2 {
+        font-size: 25px;
+    }
+}
+
+/* Menší než 750px */
+@media only screen and (max-width: 750px) {
+    #povidani {
+        margin-left: 0;
+        text-align: center;
+        order: -1;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #povidani {
+        width: 110%;
+        margin-top: 20px;
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #povidani {
+        height: 250px;
+    }
+}

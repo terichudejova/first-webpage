@@ -1,0 +1,227 @@
+
+/* CELÝ KONTAKT CONTAINER (WHITE) - column */
+#kontakt {
+    width: 100%;
+    height: 600px;
+    background-color: var(--second-color);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#kontakt h2 {
+    margin-top: 60px;
+    font-family: var(--main-font);
+    font-size: 40px;
+}
+
+#copyright {
+    padding-top: 40px;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+/* CONTACT PAGE - ADRESY A MAPA - row */
+.contactPage {
+    width: 60%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.adresa {
+    padding: 20px;
+    font-family: var(--main-font);
+    text-align: left;
+}
+
+.adresa p:first-child {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+/* CONTACT PAGE - ADRESA, OTEVÍRAČKA, IKONKY - column */
+.contactCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+/* IKONKY - FB, IG, MAIL */
+.contactIcons a:nth-of-type(2) {
+    margin-left: 10px;
+}
+
+.contactIcons a:nth-of-type(3) {
+    margin-left: 10px;
+}
+
+.iconka {
+    transition: all 0.2s ease-in-out;
+    color: black;
+}
+
+.iconka:hover {
+    cursor: pointer;
+    color: var(--main-color);
+    transform: scale(1.1);
+}
+
+
+/* 
+#dots3 {
+    position: absolute;
+    top: -30%;
+    right: 0;
+}
+
+#dots4 {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    transform: rotate(-15deg);
+} */
+
+
+/* RESPONSIVITY */
+
+/* Bigger screen */
+@media only screen and (min-width: 1330px) {
+    .contactPage {
+        justify-content: center;
+    }
+
+    .contactCard {
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (min-width: 2300px) {
+    #kontakt h2 {
+        font-size: 50px;
+    }
+
+    #kontakt p {
+        font-size: 25px;
+    }
+
+    #copyright {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (min-width: 3500px) {
+    #kontakt h2 {
+        font-size: 60px;
+    }
+
+    #kontakt p {
+        font-size: 35px;
+    }
+
+    #copyright {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .adresa:nth-of-type(1) {
+        padding-top: 0px;
+    }
+
+    #kontakt h2 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .contactPage {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    #kontakt h2 {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .contactCard {
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        order: 2;
+        padding-top: 40px;
+    }
+
+    .adresa {
+        padding-top: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #copyright {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contactCard {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #kontakt h2 {
+        font-size: 22px;
+    }
+
+    .adresa p {
+        font-size: 15px;
+    }
+
+    .adresa {
+        margin-bottom: 15px;
+    }
+
+    #copyright {
+        font-size: 10px;
+    }
+
+    .iconka {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .contactPage {
+        margin-top: 20px;
+    }
+
+    #kontakt h2 {
+        font-size: 20px;
+    }
+
+    .adresa p {
+        font-size: 12px;
+    }
+
+    #copyright {
+        font-size: 8px;
+    }
+
+    .iconka {
+        font-size: 26px !important;
+    }
+}
