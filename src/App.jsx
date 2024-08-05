@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NavigationBar from './NavigationBar'
 import CarouselGallery from './CarouselGallery'
+import { AddressMap } from './AddressMap'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <div>
       <CarouselGallery/>
       <NavigationBar/>
+      <AddressMap/>
     </div>
   )
 }
