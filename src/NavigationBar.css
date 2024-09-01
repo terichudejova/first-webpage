@@ -29,6 +29,7 @@
     background-color: white;
     border-radius: 3px;
     transition: all 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.7) 0 0 20px;
   }
 
   /* Přechod hamburgeru na křížek */

@@ -1,22 +1,63 @@
 
 @media only screen and (max-width: 1250px) {
     .google-map-code iframe {
-      width: 400px;
+      width: 600px;
       height: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .google-map-code iframe {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .google-map-code iframe {
+        width: 450px;
+        height: 250px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .google-map-code iframe {
-        width: 300px;
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .google-map-code iframe {
+        width: 350px;
         height: 250px;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .google-map-code iframe {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .google-map-code iframe {
         width: 250px;
         height: 200px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .google-map-code {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .google-map-code iframe {
+        width: 80%;
     }
 }
 
